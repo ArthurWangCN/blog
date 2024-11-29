@@ -17,6 +17,15 @@ import { getThemeConfig } from '@sugarat/theme/node'
 
 // 所有配置项，详见文档: https://theme.sugarat.top/
 const blogTheme = getThemeConfig({
+  oml2d: {
+    mobileDisplay: true,
+    models: [
+      {
+        // path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+        path: 'https://model.oml2d.com/bilibili-22/model.json'
+      }
+    ]
+  },
   // 开启RSS支持
   // RSS,
 
@@ -31,7 +40,7 @@ const blogTheme = getThemeConfig({
   footer: {
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
     // message: '下面 的内容和图标都是可以修改的噢（当然本条内容也是可以隐藏的）',
-    copyright: 'MIT License | 粥里有勺糖',
+    copyright: 'MIT License | awstudio.cn',
     // icpRecord: {
     //   name: '蜀ICP备19011724号',
     //   link: 'https://beian.miit.gov.cn/'
@@ -46,7 +55,7 @@ const blogTheme = getThemeConfig({
   themeColor: 'el-blue',
 
   // 文章默认作者
-  author: '粥里有勺糖',
+  author: '明心轩',
 
   // 友链
   friend: [
@@ -70,33 +79,33 @@ const blogTheme = getThemeConfig({
   popover: {
     title: '公告',
     body: [
-      { type: 'text', content: '👇公众号👇---👇 微信 👇' },
-      {
-        type: 'image',
-        src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp'
-      },
-      {
-        type: 'text',
-        content: '欢迎大家加群&私信交流'
-      },
-      {
-        type: 'text',
-        content: '文章首/文尾有群二维码',
-        style: 'padding-top:0'
-      },
-      {
-        type: 'button',
-        content: '作者博客',
-        link: 'https://sugarat.top'
-      },
-      {
-        type: 'button',
-        content: '加群交流',
-        props: {
-          type: 'success'
-        },
-        link: 'https://theme.sugarat.top/group.html',
-      }
+      // { type: 'text', content: '👇公众号👇---👇 微信 👇' },
+      // {
+      //   type: 'image',
+      //   src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210~fmt.webp'
+      // },
+      // {
+      //   type: 'text',
+      //   content: '欢迎大家加群&私信交流'
+      // },
+      // {
+      //   type: 'text',
+      //   content: '文章首/文尾有群二维码',
+      //   style: 'padding-top:0'
+      // },
+      // {
+      //   type: 'button',
+      //   content: '作者博客',
+      //   link: 'https://sugarat.top'
+      // },
+      // {
+      //   type: 'button',
+      //   content: '加群交流',
+      //   props: {
+      //     type: 'success'
+      //   },
+      //   link: 'https://theme.sugarat.top/group.html',
+      // }
     ],
     duration: 0
   },
