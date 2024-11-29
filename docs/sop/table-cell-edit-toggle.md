@@ -4,7 +4,7 @@ tag: element-plus
 
 # element-plus table组件，实现双击可编辑单元格，失去焦点，提交数据，支持下拉选择框选择
 
-vue3+element-plus在使用<el-table>组件时，实现双击可编辑单元格，单元格使用input，失去焦点后，提交数据。支持下拉选择框选择。
+vue3+element-plus在使用 `<el-table>` 组件时，实现双击可编辑单元格，单元格使用input，失去焦点后，提交数据。支持下拉选择框选择。
 
 主要内容：
 
