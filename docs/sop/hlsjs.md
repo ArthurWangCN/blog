@@ -48,13 +48,18 @@ var video = document.getElementById('video');
 
 运行，试着用PC浏览器和手机访问，你会发现m3u8的播放很流畅
 
-**在Vue中使用hls.js**
+## 在Vue中使用hls.js
 
-```js
-// 1、使用Vue框架可以用npm先安装hls
+1、使用Vue框架可以用npm先安装hls
+
+```sh
 npm install --save hls.js
+```
 
-// 2、然后添加组件
+
+2、然后添加组件
+
+```html
 <video
   v-if="src"
   ref="videoRef"
@@ -62,8 +67,11 @@ npm install --save hls.js
   style="width: 100%; height: calc(100% - 52px)"
   controls
 ></video>
+```
 
-// 3、最后挂载代码：
+3、最后挂载代码：
+
+```js
 const src = ref('xxxx')
 const videoRef = ref()
 const hls = ref()
@@ -87,5 +95,3 @@ onbeforeUnmount(() => {
   hls.value = null
 })
 ```
-
-

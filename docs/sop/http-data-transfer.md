@@ -6,6 +6,8 @@ categories: 服务器
 description: 对于前端来说，后端主要是提供 http 接口来传输数据，而这种数据传输的方式主要有 5 种：url param、query、form-urlencoded、form-data、json。
 ---
 
+# 5 种 HTTP 数据传输方式
+
 对于前端来说，后端主要是提供 http 接口来传输数据，而这种数据传输的方式主要有 5 种：
 
 - url param

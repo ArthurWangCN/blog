@@ -6,6 +6,8 @@ categories: 前端
 description: 由于加载项是使用 HTML 和 JavaScript 开发的，因此它们设计为跨平台工作，但不同浏览器呈现 HTML 的方式可能存在细微差异。 本文介绍如何调试在 Mac 上运行的加载项。
 ---
 
+# 在 Mac 上调试 Office 加载项
+
 由于加载项是使用 HTML 和 JavaScript 开发的，因此它们设计为跨平台工作，但不同浏览器呈现 HTML 的方式可能存在细微差异。 本文介绍如何调试在 Mac 上运行的加载项。
 
 ## 在 Mac 上使用 Safari Web 检查器进行调试

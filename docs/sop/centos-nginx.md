@@ -1,12 +1,12 @@
 ---
-title: CentOS7安装Nginx
+title: CentOS7 安装 Nginx
 date: 2022-05-14 13:53:44
 tags: 服务器
 categories: 服务器
 description: Nginx(engine x)是一款是由俄罗斯的程序设计师 Igor Sysoev 所开发高性能的Web和反向代理服务器 ，也是一个 IMAP/POP3/SMTP 代理服务器。
 ---
 
-# CentOS7安装Nginx
+# CentOS7 安装 Nginx
 
 ## 安装所需环境
 

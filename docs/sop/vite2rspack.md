@@ -1,3 +1,5 @@
+# vite 迁移至 Rspack 实践
+
 ## vite 的问题
 大型项目开发期间页面刷新缓慢：
 
@@ -22,7 +24,7 @@
 
 ## 迁移过程
 
-**1. 安装核心依赖**
+### 1. 安装核心依赖
 
 移除vite：
 
@@ -36,7 +38,7 @@ npm remove vite
 npm add @rsbuild/core -D
 ```
 
-**2. 更新 npm scripts**
+### 2. 更新 npm scripts
 
 ```json
 {
@@ -47,7 +49,7 @@ npm add @rsbuild/core -D
 }
 ```
 
-**3. 创建配置文件**
+### 3. 创建配置文件
 
 ```shell
 touch rsbuild.config.js
@@ -64,7 +66,7 @@ export default defineConfig({
 
 在这里，配置文件类型可以是 rsbuild.config.js 或者 rsbuild.config.ts。我暂且选了 .js。
 
-**4. 构建入口**
+### 4. 构建入口
 
 移除 index.html 中的 `<script type="module" src="/src/main.ts"></script>` 标签。
 
@@ -97,7 +99,7 @@ export default {
 };
 ```
 
-**5. 安装框架插件**
+### 5. 安装框架插件
 
 由于我的项目是 Vue 3 和 Sass，所以需要安装 `@rsbuild/plugin-vue` 和 `@rsbuild/plugin-sass`。虽然我也有少量写 JSX，但在安装了 `@rsbuild/plugin-vue-jsx` 之后，发现编译报错，所以暂时不安装，并将 JSX 写法改成了 Vue 的写法。
 
@@ -116,7 +118,7 @@ export default defineConfig({
 })
 ```
 
-**6. 配置 UI 框架**
+### 6. 配置 UI 框架
 
 我这里有用到 Vant 4 和 TDesign mobile，所以需要安装以下插件。
 
@@ -163,7 +165,7 @@ export default defineConfig({
 })
 ```
 
-**7. 修改环境变量 Key**
+### 7. 修改环境变量 Key
 
 跟 Vite 类似，也可以通过 import.meta.env 来访问环境变量。但假如是 client 端能访问的变量，那么就需要将环境变量的 Key 从 VITE_APP 改成 PUBLIC。这样才能在 client 端访问到。不然就是 undefined。假如你不加 PUBLIC，那么在 client 端访问 import.meta.env 时，也只会是 undefined。
 
@@ -175,7 +177,7 @@ console.log(process.env.PUBLIC_NAME); // -> 'jack'
 console.log(process.env.PASSWORD); // -> undefined
 ```
 
-**8. 其他**
+### 8. 其他
 
 我发现 pluginSass 对于 Sass 写法有点严苛检测，比如项目中存在一些同事的走心写法，在 Vite 中会正常编译无警告，但在 Rsbuild 中就会报错，需要将其修正。
 

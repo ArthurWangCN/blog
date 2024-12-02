@@ -6,7 +6,7 @@ categories: CSS
 description: 你有没有想过 CSS 中的 flex属性如何工作?它是 flex-grow，flex-shrink和flex-basis的简写。开发中最常见的写法是flex：1，它表示 flex 项目扩展并填充可用空间。
 ---
 
-# flex 1
+# flex 1 是怎么工作的
 
 flex: 1 实际上是三个属性的缩写：flex-grow: 1; flex-shrink: 1 flex-basis: auto。开发中最常见的写法是flex：1，它表示 flex 项目扩展并填充可用空间。
 

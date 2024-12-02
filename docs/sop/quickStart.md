@@ -1,5 +1,6 @@
 ---
-sticky: 999
+title: 1分钟内完成自己的博客创建
+date: 2000-01-01 00:00:00
 description: 1分钟内完成自己的博客创建
 descriptionHTML: '
 <span style="color:var(--description-font-color);">1分钟内完成自己的博客创建</span>
@@ -12,7 +13,6 @@ descriptionHTML: '
 </pre>'
 tag:
  - SOP
-top: 1
 sidebar: false
 ---
 

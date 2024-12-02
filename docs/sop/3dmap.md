@@ -1,5 +1,6 @@
 ---
 tag: plugins
+sidebar: false
 ---
 
 # 3D 地图下钻功能实现

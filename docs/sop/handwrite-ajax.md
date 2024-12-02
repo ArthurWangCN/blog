@@ -6,6 +6,8 @@ categories: JavaScript
 description: Ajax（Asynchronous JavaScript and XML），即异步JavaScript和XML，可以无需刷新页面即可从服务器取得数据。
 ---
 
+# 手写一个Ajax
+
 > Ajax（Asynchronous JavaScript and XML），即异步JavaScript和XML，可以无需刷新页面即可从服务器取得数据。
 
 

@@ -6,6 +6,8 @@ categories: 工程化
 description: npm 设置淘宝镜像源，来解决安装失败的问题。
 ---
 
+# npm 使用淘宝镜像
+
 **单次修改：**
 
 ```shell

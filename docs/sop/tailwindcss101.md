@@ -6,6 +6,8 @@ categories: CSS
 description: Tailwind CSS 是一个利用公用程序类（Utilize Class）的 CSS 框架。
 ---
 
+# Tailwind CSS 快速入门
+
 ## 什么是 Tailwind CSS 
 
 Tailwind CSS 是一个利用公用程序类（Utilize Class，下文皆称Utilize Class）的 CSS 框架。许多人会想到 CSS 框架，有很多，例如 Bootstrap、Bulma 和 Material UI。Bootstrap 和 Bulma 等框架利用预先准备好的组件（例如按钮、菜单和面包屑）进行设计。在 Tailwind CSS 中，没有准备任何组件，而是使用Utilize Class来创建和设计自己的组件。

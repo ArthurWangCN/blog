@@ -1,10 +1,12 @@
 ---
-title: Git Hooks 简介
+title: ccccc
 date: 2023-03-11 09:07:31
 tags: 工具
 categories: 工具
 description:  Git Hooks 是那些在Git执行特定事件（如commit、push、receive等）后触发运行的脚本
 ---
+
+# Git Hooks 简介
 
 ## 概念
 

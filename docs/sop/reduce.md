@@ -6,6 +6,8 @@ categories: JavaScript
 description: 对于新手来说， reduce 没有 map、 forEach、 filter 等数组方法那么友好。但是不得不说，它们能干的事情， reduce 一个不落下。
 ---
 
+# reduce 简介
+
 ## 前言
 
 对于新手来说， `reduce` 没有 `map`、 `forEach`、 `filter` 等数组方法那么友好。但是不得不说，它们能干的事情， `reduce` 一个不落下。

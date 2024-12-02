@@ -6,6 +6,8 @@ categories: 前端
 description: 前端打印方案，调起页面的打印
 ---
 
+# 前端打印方案
+
 ## window.print
 
 > Window.print 方法打开打印对话框，以打印当前文档。

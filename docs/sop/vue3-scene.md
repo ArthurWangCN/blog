@@ -6,6 +6,8 @@ categories: JavaScript
 description: 十个场景结合尤大大推荐的 setup，助你从 Vue2 丝滑过渡到 Vue3
 ---
 
+# 十个场景助你从 vue2 过渡到 vue3
+
 相信有很多这样的兄弟，学了 Vue3 的各种 API 和新特性，但公司项目依然使用的是 Vue2 ，也不知道自己的水平能否上手 Vue3 项目。其实你学的是零碎的知识点，缺少真实的使用场景。
 
 今天就把实战过程中遇到的十个场景分享给大家，结合尤大大推荐的 `<script setup>`，希望你能从 Vue2 丝滑过渡到 Vue3！

@@ -6,6 +6,8 @@ categories: 服务器
 description: 本文将全面介绍如何在Nginx或Tengine服务器配置SSL证书，具体包括下载和上传证书文件，在Nginx上配置证书文件、证书链和证书密钥等参数，以及安装证书后结果的验证。成功配置SSL证书后，您将能够通过HTTPS加密通道安全访问Nginx服务器。
 ---
 
+# Nginx或Tengine服务器配置SSL证书
+
 ## 前提条件
 
 - 已通过数字证书管理服务控制台签发证书。

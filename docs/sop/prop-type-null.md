@@ -18,7 +18,9 @@ props: {
 
 然而这样直接导致报错：
 
+```sh
 Error in nextTick: "TypeError: Right-hand side of 'instanceof' is not an object"
+```
 
 Vue 不接受 null 作为 prop 的 type 的具体原因主要与 Vue 的类型校验机制有关。在 Vue 中，props 是用来接收来自父组件的数据的，而 type 属性则用来指定这些数据的类型。Vue 的类型校验系统是基于 JavaScript 的原生构造函数来进行的。根据Vue2的props验证规则，prop的类型可以是 String、Number、Boolean、Array、Object、Date、Function、Symbol这些原生构造函数的中任意一个或多个，此外也能自己定义一个构造函数，并通过**instanceof**进行校验（详情参见官网）。
 

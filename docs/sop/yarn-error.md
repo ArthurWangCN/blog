@@ -6,6 +6,8 @@ categories: 工程化
 description: yarn安装过程中遇到的问题以及解决方案
 ---
 
+# yarn遇到的问题
+
 ## 报错 certificate has expired
 
 在通过yarn包管理器安装 yarn install 时候

@@ -6,6 +6,8 @@ categories: 工程化
 description: 大家都知道，在Mac或Linux环境下使用git比较方便，但有时候根剧项目要求又不得不使用SVN，在windows系统上面有我们最为熟悉的小乌龟（TortoiseSVN,下载链接：https://tortoisesvn.net/downloads.zh.html）在mac系统上面则很少svn的工具，本文就带大家对比Git，介绍如何在Mac上轻松使用命令行进行操作SVN，同时提升开发人员的格调。
 ---
 
+# 在Mac上轻松使用SVN
+
 **1、安装svn**
 
 mac:

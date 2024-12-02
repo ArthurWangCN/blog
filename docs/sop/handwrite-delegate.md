@@ -1,10 +1,12 @@
 ---
-title: 事件委托
+title: JavaScript 事件委托
 date: 2022-05-06 23:31:18
 tags: 手写
 categories: JavaScript
 description: 事件委托，也叫事件代理，即把原本需要绑定在子元素的响应事件委托给父元素，让父元素担当事件监听的职务。
 ---
+
+# JavaScript 事件委托
 
 ## 事件委托
 

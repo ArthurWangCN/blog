@@ -6,6 +6,8 @@ categories: 博客
 description: 最简单的友情链接页面定制
 ---
 
+# NexT添加友情链接
+
 ## 新建一个post
 
 在 source 文件夹下建一个文件夹 links，里面放一个文件 index.md，即友链页面：

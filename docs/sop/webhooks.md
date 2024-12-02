@@ -6,6 +6,8 @@ categories: 博客
 description: WebHook 功能是帮助用户 push 代码后，自动回调一个您设定的 http 地址。
 ---
 
+# 宝塔利用 Git + WebHook 实现与码云同步【自动部署】
+
 WebHook 功能是帮助用户 push 代码后，自动回调一个您设定的 http 地址。
 
 这是一个通用的解决方案，用户可以自己根据不同的需求，来编写自己的脚本程序(比如发邮件，自动部署等)。

@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # pnpm patch 修改第三方包源码
 
 element-plus 2.4.4 版本出现之前没有的bug：el-date-picker type="datetime"时，切换月份后选日期会选中1日，再点一下才能选中点击的日期 #247。看到 issues 里升级版本可以解决，但是升级版本又带来其他问题，看了升级的源码，只改了两行代码，于是通过打补丁的方式来解决。

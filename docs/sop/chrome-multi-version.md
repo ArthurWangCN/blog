@@ -6,6 +6,8 @@ categories: 工具
 description: 有的项目要求兼容低版本Chrome，所以就需要多版本共存以方便调试
 ---
 
+# Chrome多版本共存
+
 有的项目要求兼容低版本Chrome，所以就需要多版本共存以方便调试
 
 下载地址：https://www.chromedownloads.net/chrome64win-stable/，下载 Chrome 离线安装安装包 (注意是离线安装包)。

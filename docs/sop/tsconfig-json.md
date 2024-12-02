@@ -6,19 +6,21 @@ categories: JavaScript
 description: tsconfig.json 是 TypeScript 项目的配置文件。tsconfig.json 包含 TypeScript 编译的相关配置，通过更改编译配置项，我们可以让 TypeScript 编译出 ES6、ES5、node 的代码。
 ---
 
+#  tsconfig.json 文件
+
 在文章开头环境安装部分，记得我们有生成一个 tsconfig.json 文件，那么这个文件究竟有什么用呢？
 
 tsconfig.json 是 TypeScript 项目的配置文件。
 
 tsconfig.json 包含 TypeScript 编译的相关配置，通过更改编译配置项，我们可以让 TypeScript 编译出 ES6、ES5、node 的代码。
 
-### 重要字段
+## 重要字段
 - files - 设置要编译的文件的名称；
 - include - 设置需要进行编译的文件，支持路径模式匹配；
 - exclude - 设置无需进行编译的文件，支持路径模式匹配；
 - compilerOptions - 设置与编译流程相关的选项。
 
-### compilerOptions 选项
+## compilerOptions 选项
 
 ```json
 {

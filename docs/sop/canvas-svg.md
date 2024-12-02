@@ -6,6 +6,8 @@ categories: JavaScript
 description: Canvas 和 SVG 都允许您在浏览器中创建图形，但是它们在根本上是不同的。
 ---
 
+# Canvas 与 SVG
+
 > Canvas 和 SVG 都允许您在浏览器中创建图形，但是它们在根本上是不同的。
 
 ## Canvas

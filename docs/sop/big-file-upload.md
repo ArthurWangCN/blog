@@ -6,6 +6,8 @@ categories: JavaScript
 description: 本文从零搭建前端和服务端，实现一个大文件上传的 demo
 ---
 
+# 大文件上传实现
+
 本文从零搭建前端和服务端，实现一个大文件上传的 demo
 
 前端：Vue@2 + Element-ui

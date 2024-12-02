@@ -6,6 +6,8 @@ categories: 工具
 description: vue-devtools是一款基于chrome浏览器的插件，用于调试vue应用，这可以极大地提高我们的调试效率。
 ---
 
+# vue-devtools 安装教程
+
 ## 安装
 
 > 省流版：https://crxdl.com/ 搜索vue就能下载 .crx 文件，之后打开谷歌扩展程序，拖进去即可。

@@ -6,7 +6,9 @@ categories: JavaScript
 description: 数组去重方法总结
 ---
 
-**方法一、利用ES6 Set去重（ES6中最常用）**
+# 数组去重方法总结
+
+## 方法一、利用ES6 Set去重（ES6中最常用）
 
 ```js
 function unique (arr) {
@@ -19,7 +21,7 @@ console.log(unique(arr))
 
 
 
-**方法二、利用for嵌套for，然后splice去重（ES5中最常用）**
+## 方法二、利用for嵌套for，然后splice去重（ES5中最常用）
 
 ```js
 function unique(arr){            
@@ -43,7 +45,7 @@ console.log(unique(arr))
 
 
 
-**方法三、利用indexOf去重**
+## 方法三、利用indexOf去重
 
 ```js
 function unique(arr) {
@@ -68,7 +70,7 @@ console.log(unique(arr))
 
 
 
-**方法四、利用sort()**
+## 方法四、利用sort()
 
 ```js
 function unique(arr) {
@@ -94,7 +96,7 @@ console.log(unique(arr))
 
 
 
-**方法五、利用对象的属性不能相同的特点进行去重**
+## 方法五、利用对象的属性不能相同的特点进行去重 
 
 ```js
 function unique(arr) {
@@ -121,7 +123,7 @@ console.log(unique(arr))
 
 
 
-**方法六、利用includes**
+## 方法六、利用includes
 
 ```js
 function unique(arr) {
@@ -144,7 +146,7 @@ console.log(unique(arr))
 
 
 
-**方法七、利用hasOwnProperty**
+## 方法七、利用hasOwnProperty
 
 ```js
 function unique(arr) {
@@ -162,7 +164,7 @@ function unique(arr) {
 
 
 
-**方法八、利用filter**
+## 方法八、利用filter
 
 ```js
 function unique(arr) {
@@ -178,7 +180,7 @@ console.log(unique(arr))
 
 
 
-**方法九、利用递归去重**
+## 方法九、利用递归去重
 
 ```js
 function unique(arr) {
@@ -205,7 +207,7 @@ console.log(unique(arr))
 
 
 
-**方法十、利用Map数据结构去重**
+## 方法十、利用Map数据结构去重
 
 ```js
 function arrayNonRepeatfy(arr) {
@@ -230,7 +232,7 @@ function arrayNonRepeatfy(arr) {
 
 
 
-**方法十一、利用reduce+includes**
+## 方法十一、利用reduce+includes
 
 ```js
 function unique(arr){

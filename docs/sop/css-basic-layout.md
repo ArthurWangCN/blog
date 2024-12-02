@@ -6,6 +6,8 @@ categories: 前端
 description: 记录CSS中8个常见的布局
 ---
 
+# CSS 8个常见的布局
+
 ## 水平居中
 
 **1. 使用 text-align**

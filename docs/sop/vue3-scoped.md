@@ -6,7 +6,9 @@ categories: JavaScript
 description: vue 中的 scoped 通过在DOM结构以及css样式上加唯一不重复的标记 data-v-hash 的方式，以保证唯一，达到样式私有化模块化的目的。
 ---
 
-### scoped原理
+# vue3 scoped 和 样式穿透
+
+## scoped原理
 
 vue 中的 scoped 通过在DOM结构以及css样式上加唯一不重复的标记: `data-v-hash` 的方式，以保证唯一（而这个工作是由过PostCSS转译实现的），达到样式私有化模块化的目的。
 
@@ -19,7 +21,7 @@ vue 中的 scoped 通过在DOM结构以及css样式上加唯一不重复的标�
 PostCSS会给一个组件中的所有dom添加了一个独一无二的动态属性data-v-xxxx，然后，给CSS选择器额外添加一个对应的属性选择器来选择该组件中dom，这种做法使得样式只作用于含有该属性的dom——组件内部dom, 从而达到了'样式模块化'的效果。
 
 
-### 样式穿透
+## 样式穿透
 
 在vue3中项目中，使用深度选择器可能会出现如下错误：
 

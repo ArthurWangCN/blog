@@ -6,6 +6,8 @@ categories: 项目
 description: 可视化大屏图表库选择方案
 ---
 
+# 可视化大屏图表库选择方案
+
 **1、ECharts.js**
 
 > 官网：[echarts.apache.org](https://link.juejin.cn/?target=https%3A%2F%2Fecharts.apache.org)

@@ -6,6 +6,8 @@ categories: Node.js
 description: Node.js 模块查找规则
 ---
 
+# Node.js 模块查找规则
+
 ## 当前模块拥有路径但没有后缀时
 
 ```javascript

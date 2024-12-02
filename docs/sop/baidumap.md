@@ -6,6 +6,8 @@ categories: 前端
 description: 百度地图JavaScript API是一套由JavaScript语言编写的应用程序接口，可帮助您在网站中构建功能丰富、交互性强的地图应用，支持PC端和移动端基于浏览器的地图应用开发，且支持HTML5特性的地图开发。
 ---
 
+# 百度地图 JS API
+
 百度地图JavaScript API是一套由JavaScript语言编写的应用程序接口，可帮助您在网站中构建功能丰富、交互性强的地图应用，支持PC端和移动端基于浏览器的地图应用开发，且支持HTML5特性的地图开发。
 
 百度地图JavaScript API支持HTTP和HTTPS，免费对外开放，可直接使用。接口使用无次数限制。在使用前，您需先申请密钥（ak）才可使用。

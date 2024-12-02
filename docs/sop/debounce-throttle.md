@@ -6,6 +6,8 @@ categories: JavaScript
 description: 在前端开发中会遇到一些频繁的事件触发，比如：resize、scroll、mousedown、mousemove、keyup、keydown。频繁触发很容易造成一些性能问题，目前解决这种性能问题最常用的就是防抖和节流。
 ---
 
+# 防抖与节流
+
 在前端开发中会遇到一些频繁的事件触发，比如：resize、scroll、mousedown、mousemove、keyup、keydown。频繁触发很容易造成一些性能问题，目前解决这种性能问题最常用的就是防抖和节流。
 
 

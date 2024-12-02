@@ -6,6 +6,8 @@ categories: JavaScript
 description: TypeScript一些常见的问题。
 ---
 
+# ts interview
+
 ## type 和 interface的区别
 
 1. 声明事，type 后面有 `=`，interface 没有；
