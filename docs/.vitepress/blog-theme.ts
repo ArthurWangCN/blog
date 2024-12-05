@@ -52,13 +52,20 @@ const blogTheme = getThemeConfig({
   },
 
   // 主题色修改
-  themeColor: 'el-blue',
+  themeColor: 'el-yellow',
 
   // 文章默认作者
   author: '明心轩',
 
   // 友链
   friend: [
+    {
+      nickname: '牛小葵',
+      des: '奔跑的牛',
+      avatar:
+        'https://blog.niuxiaokui.top/headPortrait.jpg',
+      url: 'https://blog.niuxiaokui.top/',
+    },
     {
       nickname: '粥里有勺糖',
       des: '你的指尖用于改变世界的力量',
@@ -79,6 +86,10 @@ const blogTheme = getThemeConfig({
   popover: {
     title: '公告',
     body: [
+      {
+        type: 'text', 
+        content: '本站从hexo建站迁移至vitepress'
+      }
       // { type: 'text', content: '👇公众号👇---👇 微信 👇' },
       // {
       //   type: 'image',
