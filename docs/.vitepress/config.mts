@@ -58,6 +58,12 @@ export default defineConfig({
           { text: '模拟实现', link: '/fe/handwrite/' },
         ]
       },
+      {
+        text: '读书笔记',
+        items: [
+          { text: 'Vue.js设计与实现', link: '/note/vue-design/' },
+        ]
+      },
     ],
     socialLinks: [
       {
